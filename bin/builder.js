@@ -75,6 +75,7 @@ var baseTransports = {
   /* FIXME: re-enable me once we have multi-part support
   , 'xhr-multipart': ['transports/xhr.js', 'transports/xhr-multipart.js'] */
   , 'xhr-polling': ['transports/xhr.js', 'transports/xhr-polling.js']
+  , 'couchdb': ['transports/xhr.js', 'transports/couchdb.js']
   , 'jsonp-polling': [
         'transports/xhr.js'
       , 'transports/xhr-polling.js'
